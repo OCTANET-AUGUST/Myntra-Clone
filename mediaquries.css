@@ -1,0 +1,150 @@
+/* Media queries */
+
+@media screen and (min-width: 0px) and (max-width:480px) {
+
+    .list{
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: white;
+        position: absolute;
+        top: 75%;
+        left: 0%;
+        height: 100vh;
+        overflow: auto;
+        justify-content: space-evenly;
+        width: 70%;
+    }
+    
+    .search-box{
+        display: none;
+    }
+    
+    .list2{
+        display: none;
+    }
+    .inner-first>ul>li{
+        height: auto;
+    }
+
+    #studio{
+        display: none;
+    }
+    input[type="search"] {
+        display: none;
+    }
+
+    #menu-btn {
+        display: block;
+    }
+
+    #add-to {
+        display: block;
+    }
+
+    .text-des-2 {
+        width: 100%;
+        height: 40px;
+        font-size: 10px;
+        letter-spacing: 4px;
+        box-sizing: border-box;
+        padding: 15px 0px 30px 22px;
+        color: #3e4152;
+    }
+
+    .description-outer-box{
+        padding: 0px 15px 0px 10px;
+    }
+    .description-inner-box{
+        flex-direction: column;
+    }
+    .box-first > .box-inside > .links{
+        display: none;
+    }
+    .box-second > .links{
+        display: none;
+    }
+    .downlod-img{
+        display: none;
+    }
+
+    .shopping-logo > p {
+        display: none;
+    }
+
+    .shopping-logo{
+        height: 58%;
+    }
+
+    #search-icon{
+        position: static;
+        margin-left: 0px;
+    }
+
+    .shopping-move{
+        gap: 10px;
+    }
+
+    .inner-second{
+        gap: 8px;
+    }
+
+    .container{
+        justify-content: space-between;
+    }
+
+    .outer-first{
+        padding: 0px 10px;
+    }
+
+
+    .list .fa-angle-right{
+        display: block;
+    }
+
+    .man-description ,.woman-description ,.kids-description ,.beauty-description ,.home-description > div > a{
+        
+        display: none;
+    }
+    
+     .man-description , .woman-description , .kids-description , .beauty-description , .home-description{
+        
+        position: static;
+        background: transparent;
+        flex-direction: column;
+        justify-content: start;
+        min-height: auto;
+        
+    }
+    #top-des{
+        width: 100%;
+    }
+    #top-wo{
+        width: 100%;
+    }
+
+    #top-kid{
+        width: 100%;
+    }
+
+    #top-home{
+        width: 100%;
+    }
+
+    #top-beauty{
+        width: 100%;
+    }
+    .man-description > div{
+        width: 100%;
+    }
+    .inner-first > ul >  .advance{
+        display: block;
+    }
+
+    .man-description ,.woman-description ,.kids-description ,.home-description ,.beauty-description div{
+        gap: 0;
+    }
+
+    .outer-first hr{
+        display: none;
+    }
+}
