@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 0px) and (max-width:480px) {
 
-    .list{
+    .list {
         flex-direction: column;
         align-items: flex-start;
         background-color: white;
@@ -14,21 +14,23 @@
         justify-content: space-evenly;
         width: 70%;
     }
-    
-    .search-box{
+
+    .search-box {
         display: none;
     }
-    
-    .list2{
+
+    .list2 {
         display: none;
     }
-    .inner-first>ul>li{
+
+    .inner-first>ul>li {
         height: auto;
     }
 
-    #studio{
+    #studio {
         display: none;
     }
+
     input[type="search"] {
         display: none;
     }
@@ -51,100 +53,135 @@
         color: #3e4152;
     }
 
-    .description-outer-box{
+    .description-outer-box {
         padding: 0px 15px 0px 10px;
     }
-    .description-inner-box{
+
+    .description-inner-box {
         flex-direction: column;
     }
-    .box-first > .box-inside > .links{
-        display: none;
-    }
-    .box-second > .links{
-        display: none;
-    }
-    .downlod-img{
+
+    .box-first>.box-inside>.links {
         display: none;
     }
 
-    .shopping-logo > p {
+    .box-second>.links {
         display: none;
     }
 
-    .shopping-logo{
+    .downlod-img {
+        display: none;
+    }
+
+    .shopping-logo>p {
+        display: none;
+    }
+
+    .shopping-logo {
         height: 58%;
     }
 
-    #search-icon{
+    #search-icon {
         position: static;
         margin-left: 0px;
     }
 
-    .shopping-move{
+    .shopping-move {
         gap: 10px;
     }
 
-    .inner-second{
+    .inner-second {
         gap: 8px;
     }
 
-    .container{
+    .container {
         justify-content: space-between;
     }
 
-    .outer-first{
+    .outer-first {
         padding: 0px 10px;
     }
 
 
-    .list .fa-angle-right{
+    .list .fa-angle-right {
         display: block;
     }
 
-    .man-description ,.woman-description ,.kids-description ,.beauty-description ,.home-description > div > a{
-        
+    .man-description,
+    .woman-description,
+    .kids-description,
+    .beauty-description,
+    .home-description>div>a {
+
         display: none;
     }
-    
-     .man-description , .woman-description , .kids-description , .beauty-description , .home-description{
-        
+
+    .man-description,
+    .woman-description,
+    .kids-description,
+    .beauty-description,
+    .home-description {
+
         position: static;
         background: transparent;
         flex-direction: column;
         justify-content: start;
         min-height: auto;
-        
+
     }
-    #top-des{
-        width: 100%;
-    }
-    #top-wo{
+
+    #top-des {
         width: 100%;
     }
 
-    #top-kid{
+    #top-wo {
         width: 100%;
     }
 
-    #top-home{
+    #top-kid {
         width: 100%;
     }
 
-    #top-beauty{
+    #top-home {
         width: 100%;
     }
-    .man-description > div{
+
+    #top-beauty {
         width: 100%;
     }
-    .inner-first > ul >  .advance{
+
+    .man-description>div {
+        width: 100%;
+    }
+
+    .inner-first>ul>.advance {
         display: block;
     }
 
-    .man-description ,.woman-description ,.kids-description ,.home-description ,.beauty-description div{
+    .man-description,
+    .woman-description,
+    .kids-description,
+    .home-description,
+    .beauty-description div {
         gap: 0;
     }
 
-    .outer-first hr{
+    .man-description h4>a {
+        text-decoration: none;
+        color: #76778a;
+
+
+    }
+
+    .outer-first hr {
+        display: none;
+    }
+
+    .flat-off {
+        display: none;
+    }
+
+    .bell-icon {
         display: none;
     }
 }
